@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        String newString = "Hello";
+        String newStringTwo = new String("Hello hello");
+        System.out.println(newString);
+        System.out.println(newStringTwo);
+
+        int newNumber = 064;
+        System.out.println(newNumber);
     }
 }
