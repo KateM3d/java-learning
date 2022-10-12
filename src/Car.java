@@ -18,6 +18,9 @@ public class Car {
     static void newStop() {
         System.out.print(" make new stop ");
     }
+    static void newStopTwo() {
+        System.out.print(" make new second stop ");
+    }
 
     ;
 
