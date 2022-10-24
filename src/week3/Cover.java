@@ -1,3 +1,5 @@
+package week3;
+
 public class Cover {
 
     public static void main(String[] args) {

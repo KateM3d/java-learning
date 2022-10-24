@@ -1,3 +1,5 @@
+package week2;
+
 public class Programmer {
     String name;
     int age;

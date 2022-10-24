@@ -1,3 +1,5 @@
+package week4;
+
 public class Task4 {
     public static void main(String[] args) {
         String text = "Training Java";

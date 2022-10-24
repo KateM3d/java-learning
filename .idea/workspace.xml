@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09fc7d0-c4d9-4677-957f-ab9aea5dfbfb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Cover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week5/IfElse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/Cover.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/Programmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/Task4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
-  <component name="RunManager" selected="Application.Task3">
+}]]></component>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="project-one" />
@@ -100,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

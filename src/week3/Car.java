@@ -1,3 +1,5 @@
+package week3;
+
 public class Car {
     String color;
     String made;
