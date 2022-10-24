@@ -10,6 +10,10 @@ public class IfElse {
 
         if (a == 5) {
             System.out.println("a=5");
+        } else if (a == 3 || a == 4) {
+            System.out.println("a=3 or a=4");
+        } else {
+            System.out.println("the number you entered does not equal 3,4 or 5");
         }
 
         System.out.println("Multiply by 2");

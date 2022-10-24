@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f09fc7d0-c4d9-4677-957f-ab9aea5dfbfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week5/IfElse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week3/Cover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week2/Programmer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week4/Task4.java" afterDir="false" />
-    </list>
+    <list default="true" id="f09fc7d0-c4d9-4677-957f-ab9aea5dfbfb" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
