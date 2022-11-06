@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09fc7d0-c4d9-4677-957f-ab9aea5dfbfb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/week7/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week7/MyArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week7/Practice1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
