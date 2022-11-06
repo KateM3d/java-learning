@@ -9,6 +9,7 @@ public class Practice1 {
         int sum = 0;
 
         for (int el : numbers) {
+            System.out.println(el);
             sum = sum + el;
         }
         System.out.println(sum / numbers.length);
