@@ -13,15 +13,17 @@ public class MyArrayList {
             System.out.println(el);
         }
 
-        flowers.add(1,"lily");
+        flowers.add(1, "lily");
+        System.out.println("__________");
 
-        for(String el: flowers){
+        for (String el : flowers) {
             System.out.println(el);
         }
 
-        flowers.set(1,"forget-me-not");
+        flowers.set(1, "forget-me-not");
+        System.out.println("__________");
 
-        for(String el:flowers){
+        for (String el : flowers) {
             System.out.println(el);
         }
     }
