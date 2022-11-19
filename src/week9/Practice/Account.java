@@ -2,11 +2,6 @@ package week9.Practice;
 
 public class Account {
     String login;
-
-//    public Account(String login) {
-//        this.login = login;
-//    }
-
     void checkLogin(String userLogin) throws WrongLoginException {
         if (userLogin != null && userLogin.length() > 5 && userLogin.length() < 20) {
             this.login = userLogin;
