@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09fc7d0-c4d9-4677-957f-ab9aea5dfbfb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/week8/Practice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/Practice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week8/Practice3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +35,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Loops">
     <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="week6.Loops" />
       <module name="project-one" />
