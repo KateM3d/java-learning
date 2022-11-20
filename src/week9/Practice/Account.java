@@ -22,25 +22,23 @@ public class Account {
             System.out.println(" password: " + this.login);
 
         } else {
-            System.out.println("Your login should be more than 5 and less than 20 characters");
-            throw new WrongLoginException();
+//            System.out.println("Your login should be more than 5 and less than 20 characters");
+            throw new WrongLoginException("Your login should be more than 5 and less than 20 characters");
         }
     }
 
     // method to check password
-
     void checkPassword(String userPassword, String userPasswordConfirmation) throws WrongPasswordException {
         if (userPassword != null && userPassword.length() > 8 && userPassword.length() < 20 && userPassword.equals(userPasswordConfirmation)) {
             this.password = userPassword;
             System.out.println(" password: " + this.password);
         } else {
-            System.out.println("Oops, looks like there is something wrong with your password");
-            throw new WrongPasswordException();
+//            System.out.println("Oops, looks like there is something wrong with your password");
+            throw new WrongPasswordException("Oops, looks like there is something wrong with your password");
         }
     }
 
     // method to check if login or password is in HashMap
-
     void checkLoginAndPassword(String userLogin, String userPassword) throws WrongLoginOrPasswordException {
 
         String uPassword = loginPasswordPair.get(userLogin);
@@ -49,8 +47,8 @@ public class Account {
         } else if (uPassword == null) {
             System.out.println("This username doesn't exist");
         } else {
-            System.out.println("Wrong password");
-            throw new WrongLoginOrPasswordException();
+//            System.out.println("Wrong password");
+            throw new WrongLoginOrPasswordException("Wrong password");
         }
 
     }
@@ -59,16 +57,16 @@ public class Account {
         Account newUser = new Account();
 
         try {
-            newUser.checkLogin("apple");
+            newUser.checkLogin("app");
             newUser.checkLoginAndPassword("watermelon", "myPassword");
             newUser.checkLogin("watermelon");
             newUser.checkPassword("myPassword1", "myPassword");
         } catch (WrongLoginException e) {
-            System.out.println("Exception: " + e);
+            System.out.println(e.message);
         } catch (WrongPasswordException e) {
-            System.out.println("Exception: " + e);
+            System.out.println(e.message);
         } catch (WrongLoginOrPasswordException e) {
-            System.out.println("Exception: " + e);
+            System.out.println(e.message);
         }
     }
 }
