@@ -62,11 +62,11 @@ public class Account {
             newUser.checkLogin("watermelon");
             newUser.checkPassword("myPassword1", "myPassword");
         } catch (WrongLoginException e) {
-            System.out.println(e.message);
+            System.out.println("Exception: " + e);
         } catch (WrongPasswordException e) {
-            System.out.println(e.message);
+            System.out.println("Exception: " + e);
         } catch (WrongLoginOrPasswordException e) {
-            System.out.println(e.message);
+            System.out.println("Exception: " + e);
         }
     }
 }

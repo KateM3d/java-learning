@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09fc7d0-c4d9-4677-957f-ab9aea5dfbfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/week11/Fisherman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week11/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week11/RestExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week11/Restable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week11/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week11/SwimExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week11/Swimmable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week9/Practice/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week9/Practice/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week9/Practice/WrongLoginException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week9/Practice/WrongLoginException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week9/Practice/WrongLoginOrPasswordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week9/Practice/WrongLoginOrPasswordException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week9/Practice/WrongPasswordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/week9/Practice/WrongPasswordException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -106,10 +110,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.week8.Practice1" />
         <item itemvalue="Application.Practice2" />
         <item itemvalue="Application.Practice1" />
-        <item itemvalue="Application.Loops" />
         <item itemvalue="Application.Task3" />
       </list>
     </recent_temporary>
