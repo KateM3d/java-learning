@@ -9,15 +9,15 @@ public class Zoo {
         Lion lion = new Lion();
 
         zookeeper.doSleep(goldFish);
-        zookeeper.doEat(lion);
-        zookeeper.doRun(raccoon);
+        zookeeper.doSleep(lion);
+        zookeeper.doSleep(raccoon);
 
-        zookeeper.doSleep(goldFish);
+        zookeeper.doEat(goldFish);
         zookeeper.doEat(lion);
-        zookeeper.doRun(raccoon);
+        zookeeper.doEat(raccoon);
 
-        zookeeper.doSleep(goldFish);
-        zookeeper.doEat(lion);
+        zookeeper.doRun(goldFish);
+        zookeeper.doRun(lion);
         zookeeper.doRun(raccoon);
 
     }
