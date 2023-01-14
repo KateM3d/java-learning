@@ -29,15 +29,9 @@ public class AnimalsCollection {
             throw new IllegalArgumentException();
         }
 
-        System.out.println("ex. 2: age");
+        System.out.println("ex. 2: age increase");
         Stream<Animal> animalsStream2 = animals.stream();
-//        List<Integer> animalAges = animalsStream2.map(animal -> animal.getAge()).toList();
-//        animalAges.stream().sorted().forEach(System.out::println);
-
-
-
-
-
+        animalsStream2.sorted(Comparator.comparingInt(Animal::getAge)).forEach(System.out::println);
 
         System.out.println("ex. 3: animals who are older than 4 years old");
         Stream<Animal> animalsStream3 = animals.stream();
