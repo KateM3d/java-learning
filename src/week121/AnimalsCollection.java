@@ -19,9 +19,8 @@ public class AnimalsCollection {
         animals.add(new Animal("chicken", 2));
         animals.add(new Animal("tiger", 3));
 
-        System.out.println("ex. 1: Lion");
-        Stream<Animal> animalsStream = animals.stream();
-        Optional<Animal> animalOptional = animalsStream.filter(animal -> Objects.equals(animal.getName(), "lion")).findAny();
+        System.out.println("ex. 1: find lion and show his age");
+        Optional<Animal> animalOptional = animals.stream().filter(animal -> Objects.equals(animal.getName(), "lion")).findAny();
         if (animalOptional.isPresent()) {
             Animal lions = animalOptional.get();
             System.out.println("There is a lion in the collection and his age is " + lions.getAge());
@@ -29,28 +28,23 @@ public class AnimalsCollection {
             throw new IllegalArgumentException();
         }
 
-        System.out.println("ex. 2: age increase");
-        Stream<Animal> animalsStream2 = animals.stream();
-        animalsStream2.sorted(Comparator.comparingInt(Animal::getAge)).forEach(System.out::println);
+        System.out.println("ex. 2: sort by age");
+        animals.stream().sorted(Comparator.comparingInt(Animal::getAge)).forEach(System.out::println);
 
-        System.out.println("ex. 3: animals who are older than 4 years old");
-        Stream<Animal> animalsStream3 = animals.stream();
-        int count = (int) animalsStream3.filter(animal -> animal.getAge() > 4).count();
+        System.out.println("ex. 3: number of animals who are older than 4 years old");
+        int count = (int) animals.stream().filter(animal -> animal.getAge() > 4).count();
         System.out.println(count);
 
         System.out.println("ex. 4: Map of animals");
         HashMap<String, Animal> table = new HashMap<>();
-        Stream<Animal> animalsStream4 = animals.stream();
-        animalsStream4.forEach(animal -> table.put(animal.getName(), animal));
+        animals.forEach(animal -> table.put(animal.getName(), animal));
         System.out.println(table);
 
         System.out.println("ex. 5: all animals names in one line using reduce");
-        Stream<Animal> animalStream5 = animals.stream();
-        Optional<String> animalNames = animalStream5
+        Optional<String> animalNames = animals.stream()
                 .map(Animal::getName)
                 .reduce((total, current) -> {
-                    String names = total +", "+ current;
-                    return names;
+                    return total +", "+ current;
                 });
         System.out.println(animalNames.stream().toList());
     };
