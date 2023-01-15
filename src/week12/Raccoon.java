@@ -12,9 +12,4 @@ public class Raccoon extends AbstractAnimal {
         super.sleep();
         System.out.println("I am raccoon and I sleep");
     }
-
-    @Override
-    void eat() {
-        super.eat();
-    }
 }
